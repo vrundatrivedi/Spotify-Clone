@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(25, 25, 28);
+  color: aliceblue;
+ 
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: cursive;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  height: 55px;
+  background-color: rgb(231, 224, 224);
+  color: aliceblue;
+  align-items: center;
+  
+  
+}
+.brand img {
+  width: 70;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding: 0 8px;
+}
+nav ul li {
+  padding: 0 12px;
+  color: rgb(28, 26, 26);
+}
+.container {
+  padding: 450;
+  min-height: 75vh;
+  color: aliceblue;
+  width: 70;
+  border-radius: 30px;
+  /* background-image: url('image/img_files/1802152.jpg') */
+  /* background-image: url('img.jpg'); */
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.bottom {
+  position: sticky;
+  height: 120px;
+  min-height: 1vh;
+
+  background-color: rgb(208, 208, 208);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 34px;
+  color: black;
+}
+
+/* /* bottom: 0%; */
+/* margin-bottom: 0%; */
+*/ #myProgressBar {
+  width: 300vh;
+  text-aling: center;
+  cursor: pointer;
+}
+
+.range {
+  margin-top: 300px;
+  /* margin-bottom: 1px; Push the input field to the bottom */
+  padding: 100px;
+}
+.songItem {
+  height: 40px;
+  display: flex;
+  background-color: aliceblue;
+  width: 20;
+  color: black;
+  margin: 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songitem img {
+  width: 50;
+  margin: 023px0;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 023px0;
+}
+.timestamp{
+    margin: o 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContaine{
+    margin-top: 174;
+}
